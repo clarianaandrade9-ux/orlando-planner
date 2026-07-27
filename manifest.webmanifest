@@ -1,0 +1,14 @@
+{
+  "name": "Orlando Trip Planner",
+  "short_name": "Orlando Planner",
+  "description": "Organizador inteligente de viagens para Disney e Universal Orlando.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f1220",
+  "theme_color": "#6d28d9",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
