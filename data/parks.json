@@ -1,0 +1,2861 @@
+{
+  "_meta": {
+    "description": "Base ampliada dos parques de Orlando (Disney World e Universal Orlando) com atrações e restaurantes.",
+    "queueTimesInfo": "queueTimesId aponta para o ID no Queue-Times; o app também resolve por nome.",
+    "coordsInfo": "Coordenadas [lat, lon]. Pontos individuais são APROXIMADOS para uso no mapa/otimizador; navegação precisa usa deep links do Google Maps."
+  },
+  "shopping": [
+    {
+      "id": "s1",
+      "name": "Disney Springs",
+      "type": "shopping",
+      "coords": [
+        28.37,
+        81.518
+      ]
+    },
+    {
+      "id": "s2",
+      "name": "Universal CityWalk",
+      "type": "shopping",
+      "coords": [
+        28.473,
+        81.468
+      ]
+    },
+    {
+      "id": "s3",
+      "name": "Orlando International Premium Outlets",
+      "type": "shopping",
+      "coords": [
+        28.472,
+        81.451
+      ]
+    },
+    {
+      "id": "s4",
+      "name": "Orlando Vineland Premium Outlets",
+      "type": "shopping",
+      "coords": [
+        28.383,
+        81.49
+      ]
+    },
+    {
+      "id": "s5",
+      "name": "The Mall at Millenia",
+      "type": "shopping",
+      "coords": [
+        28.4855,
+        81.431
+      ]
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "r1",
+      "name": "Be Our Guest Restaurant (Magic Kingdom)",
+      "type": "restaurant",
+      "parkId": "mk",
+      "coords": [
+        28.4139,
+        81.5825
+      ]
+    },
+    {
+      "id": "r2",
+      "name": "Cinderella's Royal Table (Magic Kingdom)",
+      "type": "restaurant",
+      "parkId": "mk",
+      "coords": [
+        28.4153,
+        81.585
+      ]
+    },
+    {
+      "id": "r3",
+      "name": "The Crystal Palace (Magic Kingdom)",
+      "type": "restaurant",
+      "parkId": "mk",
+      "coords": [
+        28.4206,
+        81.5843
+      ]
+    },
+    {
+      "id": "r4",
+      "name": "Liberty Tree Tavern (Magic Kingdom)",
+      "type": "restaurant",
+      "parkId": "mk",
+      "coords": [
+        28.4154,
+        81.58
+      ]
+    },
+    {
+      "id": "r5",
+      "name": "Jungle Navigation Co. LTD Skipper Canteen (Magic Kingdom)",
+      "type": "restaurant",
+      "parkId": "mk",
+      "coords": [
+        28.4213,
+        81.5797
+      ]
+    },
+    {
+      "id": "r6",
+      "name": "Tony's Town Square Restaurant (Magic Kingdom)",
+      "type": "restaurant",
+      "parkId": "mk",
+      "coords": [
+        28.42,
+        81.5815
+      ]
+    },
+    {
+      "id": "r7",
+      "name": "The Plaza Restaurant (Magic Kingdom)",
+      "type": "restaurant",
+      "parkId": "mk",
+      "coords": [
+        28.4155,
+        81.5777
+      ]
+    },
+    {
+      "id": "r8",
+      "name": "Casey's Corner (Magic Kingdom)",
+      "type": "restaurant",
+      "parkId": "mk",
+      "coords": [
+        28.4184,
+        81.5829
+      ]
+    },
+    {
+      "id": "r9",
+      "name": "Pecos Bill Tall Tale Inn and Café (Magic Kingdom)",
+      "type": "restaurant",
+      "parkId": "mk",
+      "coords": [
+        28.4143,
+        81.5796
+      ]
+    },
+    {
+      "id": "r10",
+      "name": "Columbia Harbour House (Magic Kingdom)",
+      "type": "restaurant",
+      "parkId": "mk",
+      "coords": [
+        28.4217,
+        81.5812
+      ]
+    },
+    {
+      "id": "r11",
+      "name": "Pinocchio Village Haus (Magic Kingdom)",
+      "type": "restaurant",
+      "parkId": "mk",
+      "coords": [
+        28.4167,
+        81.578
+      ]
+    },
+    {
+      "id": "r12",
+      "name": "Cosmic Ray's Starlight Café (Magic Kingdom)",
+      "type": "restaurant",
+      "parkId": "mk",
+      "coords": [
+        28.4176,
+        81.5784
+      ]
+    },
+    {
+      "id": "r13",
+      "name": "Gaston's Tavern (Magic Kingdom)",
+      "type": "restaurant",
+      "parkId": "mk",
+      "coords": [
+        28.4214,
+        81.5783
+      ]
+    },
+    {
+      "id": "r14",
+      "name": "Sleepy Hollow (Magic Kingdom)",
+      "type": "restaurant",
+      "parkId": "mk",
+      "coords": [
+        28.4196,
+        81.5786
+      ]
+    },
+    {
+      "id": "r15",
+      "name": "Aloha Isle (Magic Kingdom)",
+      "type": "restaurant",
+      "parkId": "mk",
+      "coords": [
+        28.4158,
+        81.5806
+      ]
+    },
+    {
+      "id": "r16",
+      "name": "Le Cellier Steakhouse (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.3719,
+        81.5502
+      ]
+    },
+    {
+      "id": "r17",
+      "name": "Space 220 Restaurant (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.3763,
+        81.5506
+      ]
+    },
+    {
+      "id": "r18",
+      "name": "Garden Grill Restaurant (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.3782,
+        81.5505
+      ]
+    },
+    {
+      "id": "r19",
+      "name": "Coral Reef Restaurant (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.377,
+        81.5458
+      ]
+    },
+    {
+      "id": "r20",
+      "name": "Biergarten Restaurant (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.3732,
+        81.5491
+      ]
+    },
+    {
+      "id": "r21",
+      "name": "Teppan Edo (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.3714,
+        81.5528
+      ]
+    },
+    {
+      "id": "r22",
+      "name": "San Angel Inn Restaurante (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.3735,
+        81.5471
+      ]
+    },
+    {
+      "id": "r23",
+      "name": "La Hacienda de San Angel (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.3761,
+        81.5463
+      ]
+    },
+    {
+      "id": "r24",
+      "name": "Chefs de France (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.3754,
+        81.5481
+      ]
+    },
+    {
+      "id": "r25",
+      "name": "Via Napoli Ristorante e Pizzeria (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.3749,
+        81.5501
+      ]
+    },
+    {
+      "id": "r26",
+      "name": "Tutto Italia Ristorante (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.3787,
+        81.5525
+      ]
+    },
+    {
+      "id": "r27",
+      "name": "Rose & Crown Dining Room (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.3717,
+        81.5463
+      ]
+    },
+    {
+      "id": "r28",
+      "name": "Restaurant Marrakesh (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.3777,
+        81.5481
+      ]
+    },
+    {
+      "id": "r29",
+      "name": "Nine Dragons Restaurant (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.3775,
+        81.5464
+      ]
+    },
+    {
+      "id": "r30",
+      "name": "Regal Eagle Smokehouse (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.3765,
+        81.5506
+      ]
+    },
+    {
+      "id": "r31",
+      "name": "Sunshine Seasons (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.371,
+        81.547
+      ]
+    },
+    {
+      "id": "r32",
+      "name": "Connections Eatery (EPCOT)",
+      "type": "restaurant",
+      "parkId": "epcot",
+      "coords": [
+        28.3769,
+        81.5466
+      ]
+    },
+    {
+      "id": "r33",
+      "name": "The Hollywood Brown Derby (Disney's Hollywood Studios)",
+      "type": "restaurant",
+      "parkId": "hs",
+      "coords": [
+        28.359,
+        81.5625
+      ]
+    },
+    {
+      "id": "r34",
+      "name": "Sci-Fi Dine-In Theater Restaurant (Disney's Hollywood Studios)",
+      "type": "restaurant",
+      "parkId": "hs",
+      "coords": [
+        28.3548,
+        81.5548
+      ]
+    },
+    {
+      "id": "r35",
+      "name": "50's Prime Time Café (Disney's Hollywood Studios)",
+      "type": "restaurant",
+      "parkId": "hs",
+      "coords": [
+        28.3586,
+        81.5602
+      ]
+    },
+    {
+      "id": "r36",
+      "name": "Mama Melrose's Ristorante Italiano (Disney's Hollywood Studios)",
+      "type": "restaurant",
+      "parkId": "hs",
+      "coords": [
+        28.3588,
+        81.5597
+      ]
+    },
+    {
+      "id": "r37",
+      "name": "Oga's Cantina (Disney's Hollywood Studios)",
+      "type": "restaurant",
+      "parkId": "hs",
+      "coords": [
+        28.3551,
+        81.5555
+      ]
+    },
+    {
+      "id": "r38",
+      "name": "Docking Bay 7 Food and Cargo (Disney's Hollywood Studios)",
+      "type": "restaurant",
+      "parkId": "hs",
+      "coords": [
+        28.3553,
+        81.5573
+      ]
+    },
+    {
+      "id": "r39",
+      "name": "Roundup Rodeo BBQ (Disney's Hollywood Studios)",
+      "type": "restaurant",
+      "parkId": "hs",
+      "coords": [
+        28.3594,
+        81.5551
+      ]
+    },
+    {
+      "id": "r40",
+      "name": "ABC Commissary (Disney's Hollywood Studios)",
+      "type": "restaurant",
+      "parkId": "hs",
+      "coords": [
+        28.3539,
+        81.5572
+      ]
+    },
+    {
+      "id": "r41",
+      "name": "Woody's Lunch Box (Disney's Hollywood Studios)",
+      "type": "restaurant",
+      "parkId": "hs",
+      "coords": [
+        28.3546,
+        81.5579
+      ]
+    },
+    {
+      "id": "r42",
+      "name": "Ronto Roasters (Disney's Hollywood Studios)",
+      "type": "restaurant",
+      "parkId": "hs",
+      "coords": [
+        28.3572,
+        81.5574
+      ]
+    },
+    {
+      "id": "r43",
+      "name": "Backlot Express (Disney's Hollywood Studios)",
+      "type": "restaurant",
+      "parkId": "hs",
+      "coords": [
+        28.3585,
+        81.5567
+      ]
+    },
+    {
+      "id": "r44",
+      "name": "Dockside Diner (Disney's Hollywood Studios)",
+      "type": "restaurant",
+      "parkId": "hs",
+      "coords": [
+        28.3555,
+        81.5613
+      ]
+    },
+    {
+      "id": "r45",
+      "name": "Tiffins Restaurant (Disney's Animal Kingdom)",
+      "type": "restaurant",
+      "parkId": "ak",
+      "coords": [
+        28.3565,
+        81.5877
+      ]
+    },
+    {
+      "id": "r46",
+      "name": "Yak & Yeti Restaurant (Disney's Animal Kingdom)",
+      "type": "restaurant",
+      "parkId": "ak",
+      "coords": [
+        28.3585,
+        81.5891
+      ]
+    },
+    {
+      "id": "r47",
+      "name": "Tusker House Restaurant (Disney's Animal Kingdom)",
+      "type": "restaurant",
+      "parkId": "ak",
+      "coords": [
+        28.3578,
+        81.5906
+      ]
+    },
+    {
+      "id": "r48",
+      "name": "Nomad Lounge (Disney's Animal Kingdom)",
+      "type": "restaurant",
+      "parkId": "ak",
+      "coords": [
+        28.3617,
+        81.5882
+      ]
+    },
+    {
+      "id": "r49",
+      "name": "Satu'li Canteen (Disney's Animal Kingdom)",
+      "type": "restaurant",
+      "parkId": "ak",
+      "coords": [
+        28.3578,
+        81.587
+      ]
+    },
+    {
+      "id": "r50",
+      "name": "Flame Tree Barbecue (Disney's Animal Kingdom)",
+      "type": "restaurant",
+      "parkId": "ak",
+      "coords": [
+        28.3556,
+        81.5869
+      ]
+    },
+    {
+      "id": "r51",
+      "name": "Pizzafari (Disney's Animal Kingdom)",
+      "type": "restaurant",
+      "parkId": "ak",
+      "coords": [
+        28.3566,
+        81.5868
+      ]
+    },
+    {
+      "id": "r52",
+      "name": "Restaurantosaurus (Disney's Animal Kingdom)",
+      "type": "restaurant",
+      "parkId": "ak",
+      "coords": [
+        28.3584,
+        81.5862
+      ]
+    },
+    {
+      "id": "r53",
+      "name": "Harambe Market (Disney's Animal Kingdom)",
+      "type": "restaurant",
+      "parkId": "ak",
+      "coords": [
+        28.3581,
+        81.5911
+      ]
+    },
+    {
+      "id": "r54",
+      "name": "The Leaky Cauldron (Universal Studios Florida)",
+      "type": "restaurant",
+      "parkId": "usf",
+      "coords": [
+        28.4727,
+        81.4724
+      ]
+    },
+    {
+      "id": "r55",
+      "name": "Finnegan's Bar & Grill (Universal Studios Florida)",
+      "type": "restaurant",
+      "parkId": "usf",
+      "coords": [
+        28.4777,
+        81.4645
+      ]
+    },
+    {
+      "id": "r56",
+      "name": "Lombard's Seafood Grille (Universal Studios Florida)",
+      "type": "restaurant",
+      "parkId": "usf",
+      "coords": [
+        28.4773,
+        81.4677
+      ]
+    },
+    {
+      "id": "r57",
+      "name": "Mel's Drive-In (Universal Studios Florida)",
+      "type": "restaurant",
+      "parkId": "usf",
+      "coords": [
+        28.4742,
+        81.469
+      ]
+    },
+    {
+      "id": "r58",
+      "name": "Richter's Burger Co. (Universal Studios Florida)",
+      "type": "restaurant",
+      "parkId": "usf",
+      "coords": [
+        28.4757,
+        81.47
+      ]
+    },
+    {
+      "id": "r59",
+      "name": "Louie's Italian Restaurant (Universal Studios Florida)",
+      "type": "restaurant",
+      "parkId": "usf",
+      "coords": [
+        28.474,
+        81.4662
+      ]
+    },
+    {
+      "id": "r60",
+      "name": "Krusty Burger (Universal Studios Florida)",
+      "type": "restaurant",
+      "parkId": "usf",
+      "coords": [
+        28.4728,
+        81.4697
+      ]
+    },
+    {
+      "id": "r61",
+      "name": "Duff Brewery (Universal Studios Florida)",
+      "type": "restaurant",
+      "parkId": "usf",
+      "coords": [
+        28.4752,
+        81.4713
+      ]
+    },
+    {
+      "id": "r62",
+      "name": "Today Cafe (Universal Studios Florida)",
+      "type": "restaurant",
+      "parkId": "usf",
+      "coords": [
+        28.4749,
+        81.4647
+      ]
+    },
+    {
+      "id": "r63",
+      "name": "Bumblebee Man's Taco Truck (Universal Studios Florida)",
+      "type": "restaurant",
+      "parkId": "usf",
+      "coords": [
+        28.4733,
+        81.4699
+      ]
+    },
+    {
+      "id": "r64",
+      "name": "Three Broomsticks (Islands of Adventure)",
+      "type": "restaurant",
+      "parkId": "ioa",
+      "coords": [
+        28.4729,
+        81.4722
+      ]
+    },
+    {
+      "id": "r65",
+      "name": "Mythos Restaurant (Islands of Adventure)",
+      "type": "restaurant",
+      "parkId": "ioa",
+      "coords": [
+        28.4731,
+        81.4744
+      ]
+    },
+    {
+      "id": "r66",
+      "name": "Confisco Grille (Islands of Adventure)",
+      "type": "restaurant",
+      "parkId": "ioa",
+      "coords": [
+        28.4762,
+        81.47
+      ]
+    },
+    {
+      "id": "r67",
+      "name": "Thunder Falls Terrace (Islands of Adventure)",
+      "type": "restaurant",
+      "parkId": "ioa",
+      "coords": [
+        28.4695,
+        81.4701
+      ]
+    },
+    {
+      "id": "r68",
+      "name": "Fire Eater's Grill (Islands of Adventure)",
+      "type": "restaurant",
+      "parkId": "ioa",
+      "coords": [
+        28.4709,
+        81.468
+      ]
+    },
+    {
+      "id": "r69",
+      "name": "Green Eggs and Ham Café (Islands of Adventure)",
+      "type": "restaurant",
+      "parkId": "ioa",
+      "coords": [
+        28.4705,
+        81.4743
+      ]
+    },
+    {
+      "id": "r70",
+      "name": "Hog's Head (Islands of Adventure)",
+      "type": "restaurant",
+      "parkId": "ioa",
+      "coords": [
+        28.4707,
+        81.4729
+      ]
+    },
+    {
+      "id": "r71",
+      "name": "Circus McGurkus Cafe Stoo-pendous (Islands of Adventure)",
+      "type": "restaurant",
+      "parkId": "ioa",
+      "coords": [
+        28.4694,
+        81.4702
+      ]
+    },
+    {
+      "id": "r72",
+      "name": "Blondie's (Islands of Adventure)",
+      "type": "restaurant",
+      "parkId": "ioa",
+      "coords": [
+        28.4748,
+        81.4692
+      ]
+    },
+    {
+      "id": "r73",
+      "name": "Captain America Diner (Islands of Adventure)",
+      "type": "restaurant",
+      "parkId": "ioa",
+      "coords": [
+        28.4699,
+        81.4741
+      ]
+    },
+    {
+      "id": "r74",
+      "name": "Comic Strip Café (Islands of Adventure)",
+      "type": "restaurant",
+      "parkId": "ioa",
+      "coords": [
+        28.4697,
+        81.4696
+      ]
+    },
+    {
+      "id": "r75",
+      "name": "Atlantic (Epic Universe)",
+      "type": "restaurant",
+      "parkId": "eu",
+      "coords": [
+        28.4735,
+        81.4465
+      ]
+    },
+    {
+      "id": "r76",
+      "name": "The Blue Dragon (Epic Universe)",
+      "type": "restaurant",
+      "parkId": "eu",
+      "coords": [
+        28.4712,
+        81.4461
+      ]
+    },
+    {
+      "id": "r77",
+      "name": "Toadstool Cafe (Epic Universe)",
+      "type": "restaurant",
+      "parkId": "eu",
+      "coords": [
+        28.4725,
+        81.4432
+      ]
+    },
+    {
+      "id": "r78",
+      "name": "Das Stakehaus (Epic Universe)",
+      "type": "restaurant",
+      "parkId": "eu",
+      "coords": [
+        28.4681,
+        81.4391
+      ]
+    },
+    {
+      "id": "r79",
+      "name": "De Lacey's Cottage (Epic Universe)",
+      "type": "restaurant",
+      "parkId": "eu",
+      "coords": [
+        28.4703,
+        81.4412
+      ]
+    },
+    {
+      "id": "r80",
+      "name": "The Burning Blade Tavern (Epic Universe)",
+      "type": "restaurant",
+      "parkId": "eu",
+      "coords": [
+        28.4726,
+        81.4444
+      ]
+    },
+    {
+      "id": "r81",
+      "name": "Mead Hall (Epic Universe)",
+      "type": "restaurant",
+      "parkId": "eu",
+      "coords": [
+        28.4732,
+        81.4469
+      ]
+    },
+    {
+      "id": "r82",
+      "name": "Pizza Moon (Epic Universe)",
+      "type": "restaurant",
+      "parkId": "eu",
+      "coords": [
+        28.4706,
+        81.444
+      ]
+    },
+    {
+      "id": "r83",
+      "name": "The Oak & Star Tavern (Epic Universe)",
+      "type": "restaurant",
+      "parkId": "eu",
+      "coords": [
+        28.4672,
+        81.4409
+      ]
+    },
+    {
+      "id": "r84",
+      "name": "Bubbly Barnacle (Epic Universe)",
+      "type": "restaurant",
+      "parkId": "eu",
+      "coords": [
+        28.469,
+        81.4421
+      ]
+    },
+    {
+      "id": "r85",
+      "name": "Kohola Reef Restaurant & Social Club (Volcano Bay)",
+      "type": "restaurant",
+      "parkId": "vb",
+      "coords": [
+        28.4648,
+        81.471
+      ]
+    },
+    {
+      "id": "r86",
+      "name": "Bambu (Volcano Bay)",
+      "type": "restaurant",
+      "parkId": "vb",
+      "coords": [
+        28.4597,
+        81.4705
+      ]
+    },
+    {
+      "id": "r87",
+      "name": "The Feasting Frog (Volcano Bay)",
+      "type": "restaurant",
+      "parkId": "vb",
+      "coords": [
+        28.4624,
+        81.4735
+      ]
+    },
+    {
+      "id": "r88",
+      "name": "Whakawaiwai Eats (Volcano Bay)",
+      "type": "restaurant",
+      "parkId": "vb",
+      "coords": [
+        28.4596,
+        81.4711
+      ]
+    },
+    {
+      "id": "r89",
+      "name": "Dancing Dragons Boat Bar (Volcano Bay)",
+      "type": "restaurant",
+      "parkId": "vb",
+      "coords": [
+        28.465,
+        81.4724
+      ]
+    }
+  ],
+  "parks": [
+    {
+      "id": "mk",
+      "name": "Magic Kingdom",
+      "type": "Disney",
+      "queueTimesId": 6,
+      "coords": [
+        28.4177,
+        81.5812
+      ],
+      "openingHours": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "attractions": [
+        {
+          "id": "mk-1",
+          "name": "Walt Disney World Railroad",
+          "coords": [
+            28.4157,
+            81.5819
+          ]
+        },
+        {
+          "id": "mk-2",
+          "name": "Main Street Vehicles",
+          "coords": [
+            28.4147,
+            81.5796
+          ]
+        },
+        {
+          "id": "mk-3",
+          "name": "Jungle Cruise",
+          "coords": [
+            28.4181,
+            81.5842
+          ]
+        },
+        {
+          "id": "mk-4",
+          "name": "Walt Disney's Enchanted Tiki Room",
+          "coords": [
+            28.4174,
+            81.5809
+          ]
+        },
+        {
+          "id": "mk-5",
+          "name": "The Magic Carpets of Aladdin",
+          "coords": [
+            28.421,
+            81.583
+          ]
+        },
+        {
+          "id": "mk-6",
+          "name": "Swiss Family Treehouse",
+          "coords": [
+            28.4212,
+            81.5782
+          ]
+        },
+        {
+          "id": "mk-7",
+          "name": "Pirates of the Caribbean",
+          "coords": [
+            28.4185,
+            81.5847
+          ]
+        },
+        {
+          "id": "mk-8",
+          "name": "Big Thunder Mountain Railroad",
+          "coords": [
+            28.4194,
+            81.5844
+          ]
+        },
+        {
+          "id": "mk-9",
+          "name": "Tiana's Bayou Adventure",
+          "coords": [
+            28.42,
+            81.5849
+          ]
+        },
+        {
+          "id": "mk-10",
+          "name": "Tom Sawyer Island",
+          "coords": [
+            28.4184,
+            81.5842
+          ]
+        },
+        {
+          "id": "mk-11",
+          "name": "Country Bear Musical Jamboree",
+          "coords": [
+            28.4165,
+            81.5829
+          ]
+        },
+        {
+          "id": "mk-12",
+          "name": "Haunted Mansion",
+          "coords": [
+            28.4206,
+            81.5827
+          ]
+        },
+        {
+          "id": "mk-13",
+          "name": "Liberty Square Riverboat",
+          "coords": [
+            28.4152,
+            81.5824
+          ]
+        },
+        {
+          "id": "mk-14",
+          "name": "The Hall of Presidents",
+          "coords": [
+            28.417,
+            81.5841
+          ]
+        },
+        {
+          "id": "mk-15",
+          "name": "Seven Dwarfs Mine Train",
+          "coords": [
+            28.4205,
+            81.5806
+          ]
+        },
+        {
+          "id": "mk-16",
+          "name": "Peter Pan's Flight",
+          "coords": [
+            28.4202,
+            81.5815
+          ]
+        },
+        {
+          "id": "mk-17",
+          "name": "it's a small world",
+          "coords": [
+            28.4208,
+            81.5835
+          ]
+        },
+        {
+          "id": "mk-18",
+          "name": "Mickey's PhilharMagic",
+          "coords": [
+            28.414,
+            81.5823
+          ]
+        },
+        {
+          "id": "mk-19",
+          "name": "The Many Adventures of Winnie the Pooh",
+          "coords": [
+            28.4215,
+            81.5789
+          ]
+        },
+        {
+          "id": "mk-20",
+          "name": "Prince Charming Regal Carrousel",
+          "coords": [
+            28.4148,
+            81.5796
+          ]
+        },
+        {
+          "id": "mk-21",
+          "name": "Mad Tea Party",
+          "coords": [
+            28.4203,
+            81.5847
+          ]
+        },
+        {
+          "id": "mk-22",
+          "name": "The Barnstormer",
+          "coords": [
+            28.4148,
+            81.5836
+          ]
+        },
+        {
+          "id": "mk-23",
+          "name": "Dumbo the Flying Elephant",
+          "coords": [
+            28.4203,
+            81.5826
+          ]
+        },
+        {
+          "id": "mk-24",
+          "name": "Under the Sea ~ Journey of The Little Mermaid",
+          "coords": [
+            28.4159,
+            81.5781
+          ]
+        },
+        {
+          "id": "mk-25",
+          "name": "Enchanted Tales with Belle",
+          "coords": [
+            28.4216,
+            81.5782
+          ]
+        },
+        {
+          "id": "mk-26",
+          "name": "Space Mountain",
+          "coords": [
+            28.4189,
+            81.5776
+          ]
+        },
+        {
+          "id": "mk-27",
+          "name": "TRON Lightcycle / Run",
+          "coords": [
+            28.4213,
+            81.5779
+          ]
+        },
+        {
+          "id": "mk-28",
+          "name": "Buzz Lightyear's Space Ranger Spin",
+          "coords": [
+            28.4184,
+            81.5779
+          ]
+        },
+        {
+          "id": "mk-29",
+          "name": "Tomorrowland Speedway",
+          "coords": [
+            28.4192,
+            81.5778
+          ]
+        },
+        {
+          "id": "mk-30",
+          "name": "Astro Orbiter",
+          "coords": [
+            28.4186,
+            81.5821
+          ]
+        },
+        {
+          "id": "mk-31",
+          "name": "Tomorrowland Transit Authority PeopleMover",
+          "coords": [
+            28.4214,
+            81.5835
+          ]
+        },
+        {
+          "id": "mk-32",
+          "name": "Walt Disney's Carousel of Progress",
+          "coords": [
+            28.4191,
+            81.579
+          ]
+        },
+        {
+          "id": "mk-33",
+          "name": "Monsters, Inc. Laugh Floor",
+          "coords": [
+            28.4141,
+            81.5838
+          ]
+        }
+      ]
+    },
+    {
+      "id": "epcot",
+      "name": "EPCOT",
+      "type": "Disney",
+      "queueTimesId": 5,
+      "coords": [
+        28.3747,
+        81.5494
+      ],
+      "openingHours": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "attractions": [
+        {
+          "id": "epcot-1",
+          "name": "Spaceship Earth",
+          "coords": [
+            28.3753,
+            81.5494
+          ]
+        },
+        {
+          "id": "epcot-2",
+          "name": "Journey Into Imagination with Figment",
+          "coords": [
+            28.372,
+            81.546
+          ]
+        },
+        {
+          "id": "epcot-3",
+          "name": "Guardians of the Galaxy: Cosmic Rewind",
+          "coords": [
+            28.376,
+            81.5476
+          ]
+        },
+        {
+          "id": "epcot-4",
+          "name": "Test Track",
+          "coords": [
+            28.373,
+            81.547
+          ]
+        },
+        {
+          "id": "epcot-5",
+          "name": "Mission: SPACE",
+          "coords": [
+            28.3757,
+            81.547
+          ]
+        },
+        {
+          "id": "epcot-6",
+          "name": "Soarin' Around the World",
+          "coords": [
+            28.3742,
+            81.551
+          ]
+        },
+        {
+          "id": "epcot-7",
+          "name": "Living with the Land",
+          "coords": [
+            28.3733,
+            81.5513
+          ]
+        },
+        {
+          "id": "epcot-8",
+          "name": "The Seas with Nemo & Friends",
+          "coords": [
+            28.3748,
+            81.552
+          ]
+        },
+        {
+          "id": "epcot-9",
+          "name": "Turtle Talk with Crush",
+          "coords": [
+            28.3765,
+            81.5525
+          ]
+        },
+        {
+          "id": "epcot-10",
+          "name": "Journey of Water, Inspired by Moana",
+          "coords": [
+            28.378,
+            81.5456
+          ]
+        },
+        {
+          "id": "epcot-11",
+          "name": "Frozen Ever After",
+          "coords": [
+            28.3705,
+            81.549
+          ]
+        },
+        {
+          "id": "epcot-12",
+          "name": "Gran Fiesta Tour Starring The Three Caballeros",
+          "coords": [
+            28.377,
+            81.5494
+          ]
+        },
+        {
+          "id": "epcot-13",
+          "name": "Remy's Ratatouille Adventure",
+          "coords": [
+            28.37,
+            81.551
+          ]
+        },
+        {
+          "id": "epcot-14",
+          "name": "The American Adventure",
+          "coords": [
+            28.375,
+            81.5523
+          ]
+        },
+        {
+          "id": "epcot-15",
+          "name": "Reflections of China",
+          "coords": [
+            28.3721,
+            81.5458
+          ]
+        },
+        {
+          "id": "epcot-16",
+          "name": "Impressions de France",
+          "coords": [
+            28.3729,
+            81.5513
+          ]
+        },
+        {
+          "id": "epcot-17",
+          "name": "Canada Far and Wide",
+          "coords": [
+            28.3767,
+            81.5496
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hs",
+      "name": "Disney's Hollywood Studios",
+      "type": "Disney",
+      "queueTimesId": 7,
+      "coords": [
+        28.3575,
+        81.5586
+      ],
+      "openingHours": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "attractions": [
+        {
+          "id": "hs-1",
+          "name": "Star Wars: Rise of the Resistance",
+          "coords": [
+            28.3555,
+            81.5605
+          ]
+        },
+        {
+          "id": "hs-2",
+          "name": "Millennium Falcon: Smugglers Run",
+          "coords": [
+            28.3558,
+            81.561
+          ]
+        },
+        {
+          "id": "hs-3",
+          "name": "Slinky Dog Dash",
+          "coords": [
+            28.357,
+            81.5602
+          ]
+        },
+        {
+          "id": "hs-4",
+          "name": "Toy Story Mania!",
+          "coords": [
+            28.3572,
+            81.5606
+          ]
+        },
+        {
+          "id": "hs-5",
+          "name": "Alien Swirling Saucers",
+          "coords": [
+            28.3568,
+            81.56
+          ]
+        },
+        {
+          "id": "hs-6",
+          "name": "The Twilight Zone Tower of Terror",
+          "coords": [
+            28.3588,
+            81.5595
+          ]
+        },
+        {
+          "id": "hs-7",
+          "name": "Rock 'n' Roller Coaster Starring Aerosmith",
+          "coords": [
+            28.359,
+            81.5598
+          ]
+        },
+        {
+          "id": "hs-8",
+          "name": "Mickey & Minnie's Runaway Railway",
+          "coords": [
+            28.3577,
+            81.5586
+          ]
+        },
+        {
+          "id": "hs-9",
+          "name": "Star Tours – The Adventures Continue",
+          "coords": [
+            28.3536,
+            81.5591
+          ]
+        },
+        {
+          "id": "hs-10",
+          "name": "Muppet*Vision 3D",
+          "coords": [
+            28.3535,
+            81.559
+          ]
+        },
+        {
+          "id": "hs-11",
+          "name": "Indiana Jones Epic Stunt Spectacular!",
+          "coords": [
+            28.3579,
+            81.5555
+          ]
+        },
+        {
+          "id": "hs-12",
+          "name": "Beauty and the Beast – Live on Stage",
+          "coords": [
+            28.3586,
+            81.5582
+          ]
+        },
+        {
+          "id": "hs-13",
+          "name": "Fantasmic!",
+          "coords": [
+            28.3556,
+            81.5606
+          ]
+        },
+        {
+          "id": "hs-14",
+          "name": "For the First Time in Forever: A Frozen Sing-Along",
+          "coords": [
+            28.3594,
+            81.5556
+          ]
+        },
+        {
+          "id": "hs-15",
+          "name": "Lightning McQueen's Racing Academy",
+          "coords": [
+            28.3582,
+            81.5563
+          ]
+        },
+        {
+          "id": "hs-16",
+          "name": "Disney Junior Play and Dance!",
+          "coords": [
+            28.3585,
+            81.5614
+          ]
+        },
+        {
+          "id": "hs-17",
+          "name": "Walt Disney Presents",
+          "coords": [
+            28.3574,
+            81.5625
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ak",
+      "name": "Disney's Animal Kingdom",
+      "type": "Disney",
+      "queueTimesId": 8,
+      "coords": [
+        28.3587,
+        81.5901
+      ],
+      "openingHours": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "attractions": [
+        {
+          "id": "ak-1",
+          "name": "Avatar Flight of Passage",
+          "coords": [
+            28.3556,
+            81.592
+          ]
+        },
+        {
+          "id": "ak-2",
+          "name": "Na'vi River Journey",
+          "coords": [
+            28.3558,
+            81.5915
+          ]
+        },
+        {
+          "id": "ak-3",
+          "name": "Kilimanjaro Safaris",
+          "coords": [
+            28.362,
+            81.5905
+          ]
+        },
+        {
+          "id": "ak-4",
+          "name": "Gorilla Falls Exploration Trail",
+          "coords": [
+            28.3587,
+            81.5876
+          ]
+        },
+        {
+          "id": "ak-5",
+          "name": "Festival of the Lion King",
+          "coords": [
+            28.362,
+            81.592
+          ]
+        },
+        {
+          "id": "ak-6",
+          "name": "Expedition Everest",
+          "coords": [
+            28.36,
+            81.587
+          ]
+        },
+        {
+          "id": "ak-7",
+          "name": "Kali River Rapids",
+          "coords": [
+            28.361,
+            81.5885
+          ]
+        },
+        {
+          "id": "ak-8",
+          "name": "Maharajah Jungle Trek",
+          "coords": [
+            28.3603,
+            81.5922
+          ]
+        },
+        {
+          "id": "ak-9",
+          "name": "Feathered Friends in Flight!",
+          "coords": [
+            28.3558,
+            81.5901
+          ]
+        },
+        {
+          "id": "ak-10",
+          "name": "DINOSAUR",
+          "coords": [
+            28.3575,
+            81.5885
+          ]
+        },
+        {
+          "id": "ak-11",
+          "name": "TriceraTop Spin",
+          "coords": [
+            28.3548,
+            81.5889
+          ]
+        },
+        {
+          "id": "ak-12",
+          "name": "The Tree of Life / It's Tough to be a Bug!",
+          "coords": [
+            28.3566,
+            81.5864
+          ]
+        },
+        {
+          "id": "ak-13",
+          "name": "Finding Nemo: The Big Blue... and Beyond!",
+          "coords": [
+            28.3562,
+            81.5923
+          ]
+        },
+        {
+          "id": "ak-14",
+          "name": "Wilderness Explorers",
+          "coords": [
+            28.3604,
+            81.5925
+          ]
+        },
+        {
+          "id": "ak-15",
+          "name": "Discovery Island Trails",
+          "coords": [
+            28.3569,
+            81.592
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usf",
+      "name": "Universal Studios Florida",
+      "type": "Universal",
+      "queueTimesId": 65,
+      "coords": [
+        28.4754,
+        81.4685
+      ],
+      "openingHours": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "attractions": [
+        {
+          "id": "usf-1",
+          "name": "Harry Potter and the Escape from Gringotts",
+          "coords": [
+            28.4762,
+            81.4692
+          ]
+        },
+        {
+          "id": "usf-2",
+          "name": "Hollywood Rip Ride Rockit",
+          "coords": [
+            28.4748,
+            81.47
+          ]
+        },
+        {
+          "id": "usf-3",
+          "name": "Revenge of the Mummy",
+          "coords": [
+            28.4756,
+            81.4675
+          ]
+        },
+        {
+          "id": "usf-4",
+          "name": "Transformers: The Ride 3D",
+          "coords": [
+            28.475,
+            81.468
+          ]
+        },
+        {
+          "id": "usf-5",
+          "name": "MEN IN BLACK Alien Attack",
+          "coords": [
+            28.4766,
+            81.4672
+          ]
+        },
+        {
+          "id": "usf-6",
+          "name": "The Simpsons Ride",
+          "coords": [
+            28.4765,
+            81.467
+          ]
+        },
+        {
+          "id": "usf-7",
+          "name": "Kang & Kodos' Twirl 'n' Hurl",
+          "coords": [
+            28.4771,
+            81.4709
+          ]
+        },
+        {
+          "id": "usf-8",
+          "name": "E.T. Adventure",
+          "coords": [
+            28.4758,
+            81.4665
+          ]
+        },
+        {
+          "id": "usf-9",
+          "name": "Despicable Me Minion Mayhem",
+          "coords": [
+            28.4758,
+            81.4656
+          ]
+        },
+        {
+          "id": "usf-10",
+          "name": "Villain-Con Minion Blast",
+          "coords": [
+            28.4771,
+            81.4713
+          ]
+        },
+        {
+          "id": "usf-11",
+          "name": "Fast & Furious – Supercharged",
+          "coords": [
+            28.4779,
+            81.4646
+          ]
+        },
+        {
+          "id": "usf-12",
+          "name": "Hogwarts Express – King's Cross Station",
+          "coords": [
+            28.4764,
+            81.466
+          ]
+        },
+        {
+          "id": "usf-13",
+          "name": "Woody Woodpecker's Nuthouse Coaster",
+          "coords": [
+            28.4777,
+            81.4658
+          ]
+        },
+        {
+          "id": "usf-14",
+          "name": "Animal Actors on Location!",
+          "coords": [
+            28.479,
+            81.4716
+          ]
+        },
+        {
+          "id": "usf-15",
+          "name": "The Bourne Stuntacular",
+          "coords": [
+            28.4756,
+            81.4647
+          ]
+        },
+        {
+          "id": "usf-16",
+          "name": "Universal Orlando's Horror Make-Up Show",
+          "coords": [
+            28.4739,
+            81.4684
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ioa",
+      "name": "Islands of Adventure",
+      "type": "Universal",
+      "queueTimesId": 64,
+      "coords": [
+        28.4722,
+        81.4707
+      ],
+      "openingHours": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "attractions": [
+        {
+          "id": "ioa-1",
+          "name": "Harry Potter and the Forbidden Journey",
+          "coords": [
+            28.4726,
+            81.472
+          ]
+        },
+        {
+          "id": "ioa-2",
+          "name": "Hagrid's Magical Creatures Motorbike Adventure",
+          "coords": [
+            28.473,
+            81.4725
+          ]
+        },
+        {
+          "id": "ioa-3",
+          "name": "Flight of the Hippogriff",
+          "coords": [
+            28.4748,
+            81.4709
+          ]
+        },
+        {
+          "id": "ioa-4",
+          "name": "Hogwarts Express – Hogsmeade Station",
+          "coords": [
+            28.4728,
+            81.4736
+          ]
+        },
+        {
+          "id": "ioa-5",
+          "name": "The Incredible Hulk Coaster",
+          "coords": [
+            28.4712,
+            81.47
+          ]
+        },
+        {
+          "id": "ioa-6",
+          "name": "Jurassic World VelociCoaster",
+          "coords": [
+            28.4735,
+            81.4695
+          ]
+        },
+        {
+          "id": "ioa-7",
+          "name": "Jurassic Park River Adventure",
+          "coords": [
+            28.4753,
+            81.4741
+          ]
+        },
+        {
+          "id": "ioa-8",
+          "name": "Skull Island: Reign of Kong",
+          "coords": [
+            28.4738,
+            81.471
+          ]
+        },
+        {
+          "id": "ioa-9",
+          "name": "The Amazing Adventures of Spider-Man",
+          "coords": [
+            28.4718,
+            81.4692
+          ]
+        },
+        {
+          "id": "ioa-10",
+          "name": "Doctor Doom's Fearfall",
+          "coords": [
+            28.47,
+            81.471
+          ]
+        },
+        {
+          "id": "ioa-11",
+          "name": "Storm Force Accelatron",
+          "coords": [
+            28.4695,
+            81.4693
+          ]
+        },
+        {
+          "id": "ioa-12",
+          "name": "The Cat in the Hat",
+          "coords": [
+            28.4738,
+            81.4678
+          ]
+        },
+        {
+          "id": "ioa-13",
+          "name": "One Fish, Two Fish, Red Fish, Blue Fish",
+          "coords": [
+            28.471,
+            81.4745
+          ]
+        },
+        {
+          "id": "ioa-14",
+          "name": "Caro-Seuss-el",
+          "coords": [
+            28.472,
+            81.4698
+          ]
+        },
+        {
+          "id": "ioa-15",
+          "name": "The High in the Sky Seuss Trolley Train Ride!",
+          "coords": [
+            28.4698,
+            81.472
+          ]
+        },
+        {
+          "id": "ioa-16",
+          "name": "Popeye & Bluto's Bilge-Rat Barges",
+          "coords": [
+            28.4685,
+            81.4703
+          ]
+        },
+        {
+          "id": "ioa-17",
+          "name": "Dudley Do-Right's Ripsaw Falls",
+          "coords": [
+            28.4716,
+            81.4706
+          ]
+        },
+        {
+          "id": "ioa-18",
+          "name": "Pteranodon Flyers",
+          "coords": [
+            28.4689,
+            81.4747
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "name": "Epic Universe",
+      "type": "Universal",
+      "queueTimesId": null,
+      "coords": [
+        28.47,
+        81.443
+      ],
+      "openingHours": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "attractions": [
+        {
+          "id": "eu-1",
+          "name": "Stardust Racers",
+          "coords": [
+            28.4705,
+            81.4425
+          ]
+        },
+        {
+          "id": "eu-2",
+          "name": "Constellation Carousel",
+          "coords": [
+            28.4702,
+            81.4432
+          ]
+        },
+        {
+          "id": "eu-3",
+          "name": "Harry Potter and the Battle at the Ministry",
+          "coords": [
+            28.471,
+            81.444
+          ]
+        },
+        {
+          "id": "eu-4",
+          "name": "Mario Kart: Bowser's Challenge",
+          "coords": [
+            28.4695,
+            81.442
+          ]
+        },
+        {
+          "id": "eu-5",
+          "name": "Mine-Cart Madness",
+          "coords": [
+            28.4711,
+            81.441
+          ]
+        },
+        {
+          "id": "eu-6",
+          "name": "Yoshi's Adventure",
+          "coords": [
+            28.4682,
+            81.4403
+          ]
+        },
+        {
+          "id": "eu-7",
+          "name": "Hiccup's Wing Gliders",
+          "coords": [
+            28.4708,
+            81.4415
+          ]
+        },
+        {
+          "id": "eu-8",
+          "name": "Dragon Racer's Rally",
+          "coords": [
+            28.4715,
+            81.4396
+          ]
+        },
+        {
+          "id": "eu-9",
+          "name": "Fyre Drill",
+          "coords": [
+            28.4669,
+            81.4424
+          ]
+        },
+        {
+          "id": "eu-10",
+          "name": "Monsters Unchained: The Frankenstein Experiment",
+          "coords": [
+            28.4698,
+            81.4445
+          ]
+        },
+        {
+          "id": "eu-11",
+          "name": "Curse of the Werewolf",
+          "coords": [
+            28.4703,
+            81.4393
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vb",
+      "name": "Volcano Bay",
+      "type": "Universal",
+      "queueTimesId": null,
+      "coords": [
+        28.4633,
+        81.4711
+      ],
+      "openingHours": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "attractions": [
+        {
+          "id": "vb-1",
+          "name": "Krakatau Aqua Coaster",
+          "coords": [
+            28.4635,
+            81.4715
+          ]
+        },
+        {
+          "id": "vb-2",
+          "name": "Ko'okiri Body Plunge",
+          "coords": [
+            28.463,
+            81.4708
+          ]
+        },
+        {
+          "id": "vb-3",
+          "name": "Kala & Tai Nui Serpentine Body Slides",
+          "coords": [
+            28.4623,
+            81.4725
+          ]
+        },
+        {
+          "id": "vb-4",
+          "name": "Honu ika Moana",
+          "coords": [
+            28.4638,
+            81.4712
+          ]
+        },
+        {
+          "id": "vb-5",
+          "name": "Maku Puihi Round Raft Rides",
+          "coords": [
+            28.4628,
+            81.4718
+          ]
+        },
+        {
+          "id": "vb-6",
+          "name": "Ohyah and Ohno Drop Slides",
+          "coords": [
+            28.4632,
+            81.4681
+          ]
+        },
+        {
+          "id": "vb-7",
+          "name": "Punga Racers",
+          "coords": [
+            28.4625,
+            81.4677
+          ]
+        },
+        {
+          "id": "vb-8",
+          "name": "TeAwa The Fearless River",
+          "coords": [
+            28.4615,
+            81.4689
+          ]
+        },
+        {
+          "id": "vb-9",
+          "name": "Waturi Beach",
+          "coords": [
+            28.4608,
+            81.4695
+          ]
+        },
+        {
+          "id": "vb-10",
+          "name": "Runamukka Reef",
+          "coords": [
+            28.4658,
+            81.4682
+          ]
+        },
+        {
+          "id": "vb-11",
+          "name": "Tot Tiki Reef",
+          "coords": [
+            28.4644,
+            81.4672
+          ]
+        },
+        {
+          "id": "vb-12",
+          "name": "The Reef",
+          "coords": [
+            28.4646,
+            81.4719
+          ]
+        },
+        {
+          "id": "vb-13",
+          "name": "Taniwha Tubes",
+          "coords": [
+            28.4636,
+            81.4685
+          ]
+        }
+      ]
+    }
+  ],
+  "characterSpots": [
+    {
+      "id": "c1",
+      "name": "Mickey Mouse — Town Square Theater",
+      "characters": "Mickey Mouse",
+      "location": "Town Square Theater",
+      "type": "character",
+      "parkId": "mk",
+      "coords": [
+        28.4184,
+        81.5833
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c2",
+      "name": "Tinker Bell — Town Square Theater",
+      "characters": "Tinker Bell",
+      "location": "Town Square Theater",
+      "type": "character",
+      "parkId": "mk",
+      "coords": [
+        28.4158,
+        81.5835
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c3",
+      "name": "Cinderela & princesas — Princess Fairytale Hall",
+      "characters": "Cinderela & princesas",
+      "location": "Princess Fairytale Hall",
+      "type": "character",
+      "parkId": "mk",
+      "coords": [
+        28.4182,
+        81.5839
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c4",
+      "name": "Rapunzel & Tiana — Princess Fairytale Hall",
+      "characters": "Rapunzel & Tiana",
+      "location": "Princess Fairytale Hall",
+      "type": "character",
+      "parkId": "mk",
+      "coords": [
+        28.4182,
+        81.5796
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c5",
+      "name": "Ariel — Ariel's Grotto (Fantasyland)",
+      "characters": "Ariel",
+      "location": "Ariel's Grotto (Fantasyland)",
+      "type": "character",
+      "parkId": "mk",
+      "coords": [
+        28.4143,
+        81.582
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c6",
+      "name": "Peter Pan & Wendy — Adventureland",
+      "characters": "Peter Pan & Wendy",
+      "location": "Adventureland",
+      "type": "character",
+      "parkId": "mk",
+      "coords": [
+        28.4206,
+        81.5845
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c7",
+      "name": "Gastão — Gaston's Tavern (Fantasyland)",
+      "characters": "Gastão",
+      "location": "Gaston's Tavern (Fantasyland)",
+      "type": "character",
+      "parkId": "mk",
+      "coords": [
+        28.4147,
+        81.5802
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c8",
+      "name": "Buzz & personagens de Toy Story — Tomorrowland",
+      "characters": "Buzz & personagens de Toy Story",
+      "location": "Tomorrowland",
+      "type": "character",
+      "parkId": "mk",
+      "coords": [
+        28.4195,
+        81.5789
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c9",
+      "name": "Mickey & amigos — World Celebration",
+      "characters": "Mickey & amigos",
+      "location": "World Celebration",
+      "type": "character",
+      "parkId": "epcot",
+      "coords": [
+        28.3737,
+        81.5492
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c10",
+      "name": "Anna & Elsa (Frozen) — Norway Pavilion",
+      "characters": "Anna & Elsa (Frozen)",
+      "location": "Norway Pavilion",
+      "type": "character",
+      "parkId": "epcot",
+      "coords": [
+        28.3765,
+        81.5481
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c11",
+      "name": "Mulan — China Pavilion",
+      "characters": "Mulan",
+      "location": "China Pavilion",
+      "type": "character",
+      "parkId": "epcot",
+      "coords": [
+        28.3739,
+        81.5486
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c12",
+      "name": "Branca de Neve — Germany Pavilion",
+      "characters": "Branca de Neve",
+      "location": "Germany Pavilion",
+      "type": "character",
+      "parkId": "epcot",
+      "coords": [
+        28.3781,
+        81.5484
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c13",
+      "name": "Belle — France Pavilion",
+      "characters": "Belle",
+      "location": "France Pavilion",
+      "type": "character",
+      "parkId": "epcot",
+      "coords": [
+        28.3775,
+        81.5518
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c14",
+      "name": "Aladdin & Jasmine — Morocco Pavilion",
+      "characters": "Aladdin & Jasmine",
+      "location": "Morocco Pavilion",
+      "type": "character",
+      "parkId": "epcot",
+      "coords": [
+        28.3719,
+        81.5463
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c15",
+      "name": "Joy (Divertida Mente) — ImageWorks / Imagination",
+      "characters": "Joy (Divertida Mente)",
+      "location": "ImageWorks / Imagination",
+      "type": "character",
+      "parkId": "epcot",
+      "coords": [
+        28.3778,
+        81.552
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c16",
+      "name": "Personagens do Nemo — The Seas Pavilion",
+      "characters": "Personagens do Nemo",
+      "location": "The Seas Pavilion",
+      "type": "character",
+      "parkId": "epcot",
+      "coords": [
+        28.3733,
+        81.552
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c17",
+      "name": "Mickey & Minnie — Red Carpet Dreams",
+      "characters": "Mickey & Minnie",
+      "location": "Red Carpet Dreams",
+      "type": "character",
+      "parkId": "hs",
+      "coords": [
+        28.3561,
+        81.5581
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c18",
+      "name": "Olaf (Frozen) — Celebrity Spotlight",
+      "characters": "Olaf (Frozen)",
+      "location": "Celebrity Spotlight",
+      "type": "character",
+      "parkId": "hs",
+      "coords": [
+        28.3569,
+        81.5569
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c19",
+      "name": "Personagens de Star Wars — Star Wars Launch Bay",
+      "characters": "Personagens de Star Wars",
+      "location": "Star Wars Launch Bay",
+      "type": "character",
+      "parkId": "hs",
+      "coords": [
+        28.356,
+        81.5567
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c20",
+      "name": "Chewbacca — Star Wars Launch Bay",
+      "characters": "Chewbacca",
+      "location": "Star Wars Launch Bay",
+      "type": "character",
+      "parkId": "hs",
+      "coords": [
+        28.355,
+        81.5595
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c21",
+      "name": "BB-8 — Star Wars Launch Bay",
+      "characters": "BB-8",
+      "location": "Star Wars Launch Bay",
+      "type": "character",
+      "parkId": "hs",
+      "coords": [
+        28.3555,
+        81.5562
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c22",
+      "name": "Woody & Buzz — Toy Story Land",
+      "characters": "Woody & Buzz",
+      "location": "Toy Story Land",
+      "type": "character",
+      "parkId": "hs",
+      "coords": [
+        28.3553,
+        81.5585
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c23",
+      "name": "Forky — Toy Story Land",
+      "characters": "Forky",
+      "location": "Toy Story Land",
+      "type": "character",
+      "parkId": "hs",
+      "coords": [
+        28.358,
+        81.5598
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c24",
+      "name": "Personagens Disney Junior — Animation Courtyard",
+      "characters": "Personagens Disney Junior",
+      "location": "Animation Courtyard",
+      "type": "character",
+      "parkId": "hs",
+      "coords": [
+        28.3598,
+        81.5563
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c25",
+      "name": "Mickey & Minnie (safári) — Adventurers Outpost",
+      "characters": "Mickey & Minnie (safári)",
+      "location": "Adventurers Outpost",
+      "type": "character",
+      "parkId": "ak",
+      "coords": [
+        28.3609,
+        81.5931
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c26",
+      "name": "Pocahontas — Discovery Island",
+      "characters": "Pocahontas",
+      "location": "Discovery Island",
+      "type": "character",
+      "parkId": "ak",
+      "coords": [
+        28.362,
+        81.5873
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c27",
+      "name": "Russell & Dug (Up) — Discovery Island",
+      "characters": "Russell & Dug (Up)",
+      "location": "Discovery Island",
+      "type": "character",
+      "parkId": "ak",
+      "coords": [
+        28.3581,
+        81.5868
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c28",
+      "name": "Timão & Rafiki — Discovery Island",
+      "characters": "Timão & Rafiki",
+      "location": "Discovery Island",
+      "type": "character",
+      "parkId": "ak",
+      "coords": [
+        28.3573,
+        81.5928
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c29",
+      "name": "Personagens de Vida de Inseto — Discovery Island",
+      "characters": "Personagens de Vida de Inseto",
+      "location": "Discovery Island",
+      "type": "character",
+      "parkId": "ak",
+      "coords": [
+        28.3577,
+        81.5891
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c30",
+      "name": "Kevin (Up) — Discovery Island",
+      "characters": "Kevin (Up)",
+      "location": "Discovery Island",
+      "type": "character",
+      "parkId": "ak",
+      "coords": [
+        28.3585,
+        81.5892
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c31",
+      "name": "Minions — Minion Land",
+      "characters": "Minions",
+      "location": "Minion Land",
+      "type": "character",
+      "parkId": "usf",
+      "coords": [
+        28.4752,
+        81.4685
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c32",
+      "name": "Homer & Bart Simpson — Springfield",
+      "characters": "Homer & Bart Simpson",
+      "location": "Springfield",
+      "type": "character",
+      "parkId": "usf",
+      "coords": [
+        28.4781,
+        81.4705
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c33",
+      "name": "Optimus Prime & Bumblebee — Transformers",
+      "characters": "Optimus Prime & Bumblebee",
+      "location": "Transformers",
+      "type": "character",
+      "parkId": "usf",
+      "coords": [
+        28.4752,
+        81.4663
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c34",
+      "name": "Scooby-Doo & Salsicha — Hollywood",
+      "characters": "Scooby-Doo & Salsicha",
+      "location": "Hollywood",
+      "type": "character",
+      "parkId": "usf",
+      "coords": [
+        28.4733,
+        81.4715
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c35",
+      "name": "SpongeBob — SpongeBob StorePants",
+      "characters": "SpongeBob",
+      "location": "SpongeBob StorePants",
+      "type": "character",
+      "parkId": "usf",
+      "coords": [
+        28.473,
+        81.4713
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c36",
+      "name": "Personagens do Hello Kitty — Hollywood",
+      "characters": "Personagens do Hello Kitty",
+      "location": "Hollywood",
+      "type": "character",
+      "parkId": "usf",
+      "coords": [
+        28.4787,
+        81.4673
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c37",
+      "name": "Gru & agentes MIB — Minion Land / MIB",
+      "characters": "Gru & agentes MIB",
+      "location": "Minion Land / MIB",
+      "type": "character",
+      "parkId": "usf",
+      "coords": [
+        28.4769,
+        81.467
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c38",
+      "name": "Homem-Aranha — Marvel Super Hero Island",
+      "characters": "Homem-Aranha",
+      "location": "Marvel Super Hero Island",
+      "type": "character",
+      "parkId": "ioa",
+      "coords": [
+        28.4727,
+        81.468
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c39",
+      "name": "Capitão América — Marvel Super Hero Island",
+      "characters": "Capitão América",
+      "location": "Marvel Super Hero Island",
+      "type": "character",
+      "parkId": "ioa",
+      "coords": [
+        28.4691,
+        81.4736
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c40",
+      "name": "Wolverine & X-Men — Marvel Super Hero Island",
+      "characters": "Wolverine & X-Men",
+      "location": "Marvel Super Hero Island",
+      "type": "character",
+      "parkId": "ioa",
+      "coords": [
+        28.4728,
+        81.4706
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c41",
+      "name": "Grinch — Seuss Landing",
+      "characters": "Grinch",
+      "location": "Seuss Landing",
+      "type": "character",
+      "parkId": "ioa",
+      "coords": [
+        28.4754,
+        81.4714
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c42",
+      "name": "Gato de Cartola (Cat in the Hat) — Seuss Landing",
+      "characters": "Gato de Cartola (Cat in the Hat)",
+      "location": "Seuss Landing",
+      "type": "character",
+      "parkId": "ioa",
+      "coords": [
+        28.4754,
+        81.4695
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c43",
+      "name": "Popeye — Toon Lagoon",
+      "characters": "Popeye",
+      "location": "Toon Lagoon",
+      "type": "character",
+      "parkId": "ioa",
+      "coords": [
+        28.47,
+        81.4712
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c44",
+      "name": "Personagens de Jurassic — Jurassic Park",
+      "characters": "Personagens de Jurassic",
+      "location": "Jurassic Park",
+      "type": "character",
+      "parkId": "ioa",
+      "coords": [
+        28.471,
+        81.4694
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c45",
+      "name": "Mario & Luigi — Super Nintendo World",
+      "characters": "Mario & Luigi",
+      "location": "Super Nintendo World",
+      "type": "character",
+      "parkId": "eu",
+      "coords": [
+        28.4702,
+        81.4396
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c46",
+      "name": "Princesa Peach — Super Nintendo World",
+      "characters": "Princesa Peach",
+      "location": "Super Nintendo World",
+      "type": "character",
+      "parkId": "eu",
+      "coords": [
+        28.4687,
+        81.4423
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c47",
+      "name": "Toad — Super Nintendo World",
+      "characters": "Toad",
+      "location": "Super Nintendo World",
+      "type": "character",
+      "parkId": "eu",
+      "coords": [
+        28.4683,
+        81.4448
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c48",
+      "name": "Personagens de Como Treinar o Seu Dragão — Isle of Berk",
+      "characters": "Personagens de Como Treinar o Seu Dragão",
+      "location": "Isle of Berk",
+      "type": "character",
+      "parkId": "eu",
+      "coords": [
+        28.4674,
+        81.4422
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c49",
+      "name": "Soluço & Astrid — Isle of Berk",
+      "characters": "Soluço & Astrid",
+      "location": "Isle of Berk",
+      "type": "character",
+      "parkId": "eu",
+      "coords": [
+        28.4724,
+        81.4445
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c50",
+      "name": "Monstros clássicos da Universal — Dark Universe",
+      "characters": "Monstros clássicos da Universal",
+      "location": "Dark Universe",
+      "type": "character",
+      "parkId": "eu",
+      "coords": [
+        28.4731,
+        81.4399
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    },
+    {
+      "id": "c51",
+      "name": "Waturi (mascotes) — Waturi Beach",
+      "characters": "Waturi (mascotes)",
+      "location": "Waturi Beach",
+      "type": "character",
+      "parkId": "vb",
+      "coords": [
+        28.4633,
+        81.4707
+      ],
+      "note": "Locais e horários de personagens mudam com frequência — confirme no app oficial no dia."
+    }
+  ]
+}
